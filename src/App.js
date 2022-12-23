@@ -37,13 +37,13 @@ export default class App extends Lightning.Component {
   _init() {
     this.tag('Background')
       .animation({
-        duration: 15,
+        duration: 2,
         repeat: -1,
         actions: [
           {
             t: '',
             p: 'color',
-            v: { 0: { v: 0xfffbb03b }, 0.5: { v: 0xfff46730 }, 0.8: { v: 0xfffbb03b } },
+            v: { 0: { v: 0xfffbb03b }, 0.5: { v: 0xfff48750 }, 0.8: { v: 0xfffbb03b } },
           },
         ],
       })
