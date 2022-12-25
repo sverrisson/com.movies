@@ -21,19 +21,22 @@ npm install @lightningjs/ui
 
 2. Install the dependencies listed above and the NPM dependencies by running: `npm install`.
 
-3. Build the App using the _Lightning-CLI_ by running `lng build` inside the root of your project.
+3. Create a new file named **.env** and store the API key there: `APP_API_KEY=<Your Key>`
+If you don't have a API key, you can get it here: `https://www.themoviedb.org/documentation/api`, or use mine which, I included in the email.
 
-4. Fire upo a local webserver and open the Game in a browser by running: `lng serve` inside the root of your project.
+4. Build the App using the _Lightning-CLI_ by running `lng build` inside the root of your project.
 
-5. Adjust the browser window to the size 1920 x 1080 and the arrow keys to navigate and return to select.
+5. Fire up a local webserver and open the Game in a browser by running: `lng serve` inside the root of your project.
+
+6. Adjust the browser window to the size 1920 x 1080 and the arrow keys to navigate and return to select.
 
 ## Game Play
 
-#### One point for selecting the right Movie for the Actor and -3 points if the wrong Movie is selected
+### One point for selecting the right Movie for the Actor and -3 points if the wrong Movie is selected
 
-### Developing the App
+## Developing the App
 
-#### The following are left to be done as this is a WIP
+### The following are left to be done as this is a WIP
 
 - Testing, Lightning recommends the Jest framework.
 - Accessibility.
