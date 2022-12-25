@@ -9,6 +9,15 @@
   "platformSettings": {
     "path": "./static",
     "log": true,
-    "showVersion": false
+    "showVersion": false,
+    "router": {
+      "backtrack": false,
+      "gcOnUnload": true,
+      "lazyCreate": true,
+      "lazyDestroy": true,
+      "reuseInstance": false,
+      "logRoute": false,
+      "updateHash": true
+    }
   }
 }
