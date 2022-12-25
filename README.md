@@ -1,6 +1,8 @@
 # Movie Game
 
-## TV Browser Game
+## Movie Game on the TV in the Browser with the Lighting.js framework
+
+> ### One point for selecting the right Movie for the Actor and -3 points if the wrong Movie is selected
 
 ### Getting started
 
@@ -21,8 +23,8 @@ npm install @lightningjs/ui
 
 2. Install the dependencies listed above and the NPM dependencies by running: `npm install`.
 
-3. Create a new file named **.env** and store the API key there: `APP_API_KEY=<Your Key>`
-If you don't have a API key, you can get it here: `https://www.themoviedb.org/documentation/api`, or use mine which, I included in the email.
+3. Create a new file named `.env` and store the API key there: `APP_API_KEY=<Your Key>`
+If you don't have a API key, you can get it here: `https://www.themoviedb.org/documentation/api`.
 
 4. Build the App using the _Lightning-CLI_ by running `lng build` inside the root of your project.
 
@@ -30,17 +32,13 @@ If you don't have a API key, you can get it here: `https://www.themoviedb.org/do
 
 6. Adjust the browser window to the size 1920 x 1080 and the arrow keys to navigate and return to select.
 
-## Game Play
-
-### One point for selecting the right Movie for the Actor and -3 points if the wrong Movie is selected
-
 ## Developing the App
 
 ### The following are left to be done as this is a WIP
 
 - Testing, Lightning recommends the Jest framework.
 - Accessibility.
-- Internationalisation with de, fr, it.
+- Internationalization with de, fr, it.
 - Seperate the game play more from the UI.
 - Experiment with mouse and touch.
 - Let the user know if JS is turned off.
