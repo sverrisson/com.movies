@@ -44,7 +44,7 @@ export default class Page extends Lightning.Component {
 
     // Update the Score on each page
     const score = this.fireAncestors('$getScore')
-    if (score) {
+    if (score != null) {
       this.tag('Score').patch({
         text: {
           text: `Score: ${score}`,
