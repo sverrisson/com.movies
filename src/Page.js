@@ -6,6 +6,7 @@ export default class Page extends Lightning.Component {
       rect: true,
       w: 1920,
       h: 1080,
+      color: 0xff3b30ab,
       Content: {},
       Background: {
         w: 1920,
