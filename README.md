@@ -41,5 +41,5 @@ npm install @lightningjs/ui
 - Seperate the game play more from the UI.
 - Experiment with mouse and touch.
 - Let the user know if JS is turned off.
-- More prefetching, to improve on slow networks.
+- More prefetching, to improve on slow networks. The App already stores expensive web calls.
 - More Actors and more Movies to increase randomness.

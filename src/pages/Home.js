@@ -27,6 +27,7 @@ export default class Home extends Page {
             text: 'Select Your Favorite Actor',
             fontSize: 56,
             textColor: 0xfbddddff,
+            textAlign: 'center',
           },
         },
       },

@@ -26,6 +26,7 @@ export default class Movies extends Page {
             text: '',
             fontSize: 56,
             textColor: 0xfbddddff,
+            textAlign: 'center',
           },
         },
       },
