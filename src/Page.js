@@ -1,4 +1,4 @@
-import { Lightning, Utils, Colors } from '@lightningjs/sdk'
+import { Lightning, Utils } from '@lightningjs/sdk'
 
 export default class Page extends Lightning.Component {
   static _template() {
