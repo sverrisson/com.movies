@@ -43,12 +43,6 @@ export default class App extends Router.App {
   static _template() {
     return {
       ...super._template(),
-      Background: {
-        w: window.innerWidth, // 1920
-        color: 0xfffbb03b, // 1080
-        src: Utils.asset('images/background.png'),
-        zIndex: 100,
-      },
     }
   }
 

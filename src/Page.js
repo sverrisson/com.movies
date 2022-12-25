@@ -1,4 +1,4 @@
-import { Lightning, Colors, Utils } from '@lightningjs/sdk'
+import { Lightning, Utils, Colors } from '@lightningjs/sdk'
 
 export default class Page extends Lightning.Component {
   static _template() {
@@ -41,26 +41,28 @@ export default class Page extends Lightning.Component {
   }
 
   _init() {
-    this.tag('Background')
-      .animation({
-        duration: 2,
-        repeat: -1,
-        actions: [
-          {
-            t: '',
-            p: 'color',
-            v: { 0: { v: 0xfffbb03b }, 0.5: { v: 0xfff46730 }, 0.8: { v: 0xffcbc0cb } },
-          },
-        ],
-      })
-      .start()
+    // this.tag('Background')
+    //   .animation({
+    //     duration: 2,
+    //     repeat: -1,
+    //     actions: [
+    //       {
+    //         t: '',
+    //         p: 'color',
+    //         v: { 0: { v: 0xfffbb03b }, 0.5: { v: 0xfff46730 }, 0.8: { v: 0xffcbc0cb } },
+    //       },
+    //     ],
+    //   })
+    //   .start()
 
     const score = this.fireAncestors('$getScore')
-    this.tag('Score').patch({
-      text: {
-        text: `Score: ${score}`,
-      },
-    })
+    if (score) {
+      this.tag('Score').patch({
+        text: {
+          text: `Score: ${score}`,
+        },
+      })
+    }
   }
 
   _focus() {
