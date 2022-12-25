@@ -28,19 +28,19 @@ export default class Page extends Lightning.Component {
   }
 
   _init() {
-    // this.tag('Background')
-    //   .animation({
-    //     duration: 2,
-    //     repeat: -1,
-    //     actions: [
-    //       {
-    //         t: '',
-    //         p: 'color',
-    //         v: { 0: { v: 0xfffbb03b }, 0.5: { v: 0xfff46730 }, 1: { v: 0xffcbc0cb } },
-    //       },
-    //     ],
-    //   })
-    //   .start()
+    this.tag('Background')
+      .animation({
+        duration: 2,
+        repeat: -1,
+        actions: [
+          {
+            t: '',
+            p: 'color',
+            v: { 0: { v: 0xfffbb03b }, 0.5: { v: 0xfff46730 }, 1: { v: 0xffcbc0cb } },
+          },
+        ],
+      })
+      .start()
 
     // Update the Score on each page
     const score = this.fireAncestors('$getScore')
