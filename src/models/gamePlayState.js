@@ -5,11 +5,6 @@ export default class GamePlayState {
   #selectedActorID
   #correctMovieID
 
-  constructor() {
-    this.selectedActor = this.selectedActor.bind(this)
-    this.movieSelected = this.movieSelected.bind(this)
-  }
-
   // When the user picks an actor
   selectedActor(actorID) {
     this.#selectedActorID = actorID
