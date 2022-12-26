@@ -30,7 +30,7 @@ and move to the folder: `cd com.movies`.
 
 5. Fire up a local webserver and open the Game in a browser by running: `lng serve` inside the root of your project.
 
-6. Adjust the browser window to the size 1920 x 1080 and the arrow keys to navigate and return to select.
+6. Adjust the browser window to the size 1920 x 1080. Use the arrow keys to navigate and return to select.
 
 ## Developing the App
 
