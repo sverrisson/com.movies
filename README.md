@@ -37,6 +37,7 @@ and move to the folder: `cd com.movies`.
 ### The following are left to be done as this is a WIP
 
 - Reduce the duplication in code and combine components.
+- Improve the app structure for future growth and easier maintenance.
 - Testing, Lightning recommends the Jest framework.
 - Unit and Functional Testing the Model and GameState specifically.
 - Accessibility.
