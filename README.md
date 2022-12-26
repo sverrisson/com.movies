@@ -24,7 +24,7 @@ and move to the folder: `cd com.movies`.
 
 2. Install the dependencies listed above and the NPM dependencies by running: `npm install`.
 
-3. Create a new file named `.env` and store the API key there: `APP_API_KEY=<Your Key>`. Use the version: `API v3`, API key and if you don't have an API key, you can get it here: `https://www.themoviedb.org/documentation/api`.
+3. Create a new file named `.env`, in the root project folder and store the API key in it: `APP_API_KEY=<Your Key>`. Use the version: `API v3`, API key and if you don't have an API key, you can get it here: `https://www.themoviedb.org/documentation/api`.
 
 4. Build the App using the _Lightning-CLI_ by running `lng build` inside the root of your project.
 
@@ -36,6 +36,7 @@ and move to the folder: `cd com.movies`.
 
 ### The following are left to be done as this is a WIP
 
+- Reduce the duplication in code and combine components.
 - Testing, Lightning recommends the Jest framework.
 - Accessibility.
 - Internationalization with de, fr, it.
