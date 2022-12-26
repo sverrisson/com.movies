@@ -38,6 +38,7 @@ and move to the folder: `cd com.movies`.
 
 - Reduce the duplication in code and combine components.
 - Testing, Lightning recommends the Jest framework.
+- Unit and Functional Testing the Model and GameState specifically.
 - Accessibility.
 - Internationalization with de, fr, it.
 - Seperate the game play more from the UI.
