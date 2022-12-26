@@ -19,14 +19,12 @@ npm install @lightningjs/ui
 
 > NOTE: The following instructions apply to macOS or Linux/Unix, adjust for Windows.
 
-1. Git clone the project: `git clone https://github.com/sverrisson/com.movies`
-
-and move into the folder: `cd com.movies`
+1. Clone the project: `git clone https://github.com/sverrisson/com.movies`
+and move to the folder: `cd com.movies`.
 
 2. Install the dependencies listed above and the NPM dependencies by running: `npm install`.
 
-3. Create a new file named `.env` and store the API key there: `APP_API_KEY=<Your Key>`
-If you don't have a API key, you can get it here: `https://www.themoviedb.org/documentation/api`.
+3. Create a new file named `.env` and store the API key there: `APP_API_KEY=<Your Key>`. Use the version: `API v3`, API key and if you don't have an API key, you can get it here: `https://www.themoviedb.org/documentation/api`.
 
 4. Build the App using the _Lightning-CLI_ by running `lng build` inside the root of your project.
 
