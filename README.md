@@ -19,7 +19,9 @@ npm install @lightningjs/ui
 
 > NOTE: The following instructions apply to macOS or Linux/Unix, adjust for Windows.
 
-1. Git clone the project: `git clone https://github.com/sverrisson/com.movies` and move into the folder: `cd com.movies`
+1. Git clone the project: `git clone https://github.com/sverrisson/com.movies`
+
+and move into the folder: `cd com.movies`
 
 2. Install the dependencies listed above and the NPM dependencies by running: `npm install`.
 
