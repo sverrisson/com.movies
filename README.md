@@ -44,3 +44,4 @@ and move to the folder: `cd com.movies`.
 - Let the user know if JS is turned off.
 - More prefetching, to improve on slow networks. The App already stores expensive web calls.
 - More Actors and more Movies to increase randomness.
+- Reduce the logging, but it shows the history now.

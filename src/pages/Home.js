@@ -1,4 +1,3 @@
-import { Log } from '@lightningjs/sdk'
 import { Grid } from '@lightningjs/ui'
 import ActorCell from '../components/ActorCell'
 import Page from '../Page.js'
@@ -37,7 +36,6 @@ export default class Home extends Page {
   _setup() {
     const model = new Model()
     model.getActorsMovies().then((allActors) => {
-      Log.debug('First actor', allActors[0])
       const actors = allActors.map((actor) => {
         return { h: 632, w: 421, actor: actor }
       })

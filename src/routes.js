@@ -1,4 +1,3 @@
-import { Log } from '@lightningjs/sdk'
 import Movies from './pages/Movies'
 import NotFound from './pages/NotFound'
 import Boot from './pages/Boot'
@@ -7,10 +6,6 @@ import Home from './pages/Home'
 
 export default {
   root: 'home',
-  beforeEachRoute: async (from, to) => {
-    Log.debug('Routing to', to)
-    return true
-  },
   routes: [
     {
       path: 'home',
