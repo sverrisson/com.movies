@@ -25,7 +25,7 @@ export default class Model {
     for (const movie of movies) {
       // Exit loop if we have enough movies
       if (withoutMovies.length === 2) {
-        continue
+        break
       }
       const castSet = await this.getActorsInMovie(movie.id)
       // If the actorID is not found in the cast the movie is added
